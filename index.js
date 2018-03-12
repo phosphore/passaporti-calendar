@@ -36,7 +36,7 @@ const loadLinks = async () => {
     page.click('input[type=submit]')
   ]) 
 
-  await page.goto('https://www.passaportonline.poliziadistato.it/GestioneCalendarioCittadinoAction.do?codop=mostraCalendario&idRegista=203', {waitUntil: 'networkidle0'})
+  await page.goto('https://www.passaportonline.poliziadistato.it/GestioneCalendarioCittadinoAction.do?codop=mostraCalendario&idRegista=201', {waitUntil: 'networkidle0'})
   
   const links = []
 
