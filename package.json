@@ -1,0 +1,25 @@
+{
+  "name": "passaporti-calendar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simoneb/passaporti-calendar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simoneb/passaporti-calendar/issues"
+  },
+  "homepage": "https://github.com/simoneb/passaporti-calendar#readme",
+  "dependencies": {
+    "ical-generator": "^0.2.10",
+    "moment": "^2.21.0",
+    "puppeteer": "^1.1.1",
+    "qs": "^6.5.1"
+  }
+}
